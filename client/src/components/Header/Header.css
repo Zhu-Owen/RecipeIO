@@ -1,0 +1,9 @@
+.header-container {
+    padding-top: 10rem !important;
+    padding-bottom: 7rem !important;
+}
+
+.header-container h1 {
+    color: white;
+    font-weight: 700;
+}

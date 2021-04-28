@@ -1,0 +1,35 @@
+
+.recipe-tile {
+    background-color: #132024;
+    width: 90%;
+    height: 337px;
+    top: 0px;
+    position: relative;
+    cursor: pointer;
+    box-shadow: rgba(0, 0, 0, 0.11) 0px 1px 6px 0px;
+}
+
+.recipe-tile h1 {
+    font-size: 1.17rem;
+    font-weight: 650;
+    color: white;
+}
+
+.recipe-tile p {
+    font-weight: 500;
+    font-size: 1rem;
+    color: rgb(233, 227, 227);
+}
+
+.recipe-tile span {
+    font-weight: normal;
+    font-size: 0.87rem;
+    color: rgb(158, 157, 157);
+}
+
+.recipe-tile:hover {
+    transition: all 0.27s ease-in-out;
+    box-shadow: 0px 4px 8px rgba(38, 38, 38, 0.2);
+    top: -7px;
+    border: 1px solid #9ee0ff;
+}
